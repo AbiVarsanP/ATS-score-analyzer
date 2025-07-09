@@ -1,0 +1,5 @@
+dotenv
+flask
+scikit-learn
+sentence-transformers
+pymupdf

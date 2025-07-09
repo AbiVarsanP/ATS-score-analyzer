@@ -1,0 +1,20 @@
+[project]
+name = "resume-score"
+version = "0.1.0"
+description = "This project is all about the resume score(ATS). It use sentence tranformer for the embeddings and using cosine similarity for the prediction."
+authors = [
+    {name = "Thirumurugan240",email = "thirumuruganchandru01@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "pymupdf (>=1.25.3,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
